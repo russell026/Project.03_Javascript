@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Portfolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="blog-hero">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>Berbagi pengetahuan dan pengalaman seputar teknologi dan pengembangan web</p>
+        </div>
+    </section>
+
+    <section class="blog-search">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="blog-search" placeholder="Cari artikel...">
+                <button id="search-btn">Cari</button>
+            </div>
+            <div class="blog-categories">
+                <button class="category-btn active" data-category="all">Semua</button>
+                <button class="category-btn" data-category="web">Web Development</button>
+                <button class="category-btn" data-category="ui">UI/UX Design</button>
+                <button class="category-btn" data-category="tech">Teknologi</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-post" data-category="web">
+                    <div class="blog-image">
+                        <img src="images/blog/post1.jpg" alt="Mengenal Teknologi Web Modern">
+                    </div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span class="post-date">12 April 2025</span>
+                            <span class="post-category">Web Development</span>
+                        </div>
+                        <h2><a href="blog-post1.html">Mengenal Teknologi Web Modern</a></h2>
+                        <p class="post-excerpt">Perkembangan teknologi web saat ini sangat pesat, dengan berbagai framework dan library yang mempermudah pengembangan. Mari mengenal beberapa teknologi web modern yang populer saat ini.</p>
+                        <a href="blog-post1.html" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post" data-category="ui">
+                    <div class="blog-image">
+                        <img src="images/blog/post2.jpg" alt="Dasar-dasar UI/UX Design">
+                    </div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span class="post-date">5 April 2025</span>
+                            <span class="post-category">UI/UX Design</span>
+                        </div>
+                        <h2><a href="blog-post2.html">Dasar-dasar UI/UX Design</a></h2>
+                        <p class="post-excerpt">Desain antarmuka pengguna yang baik adalah kunci dalam membuat aplikasi yang mudah digunakan. Artikel ini akan membahas prinsip-prinsip dasar UI/UX design yang penting untuk dipahami.</p>
+                        <a href="blog-post2.html" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post" data-category="tech">
+                    <div class="blog-image">
+                        <img src="images/blog/post3.jpg" alt="Artificial Intelligence dalam Kehidupan Sehari-hari">
+                    </div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span class="post-date">28 Maret 2025</span>
+                            <span class="post-category">Teknologi</span>
+                        </div>
+                        <h2><a href="blog-post3.html">Artificial Intelligence dalam Kehidupan Sehari-hari</a></h2>
+                        <p class="post-excerpt">Artificial Intelligence (AI) semakin menjadi bagian dari kehidupan kita sehari-hari. Mari kita bahas bagaimana AI mempengaruhi berbagai aspek kehidupan dan apa saja penerapannya.</p>
+                        <a href="blog-post3.html" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-post" data-category="web">
+                    <div class="blog-image">
+                        <img src="images/blog/post4.jpg" alt="Optimasi Website untuk Kecepatan dan Performa">
+                    </div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span class="post-date">20 Maret 2025</span>
+                            <span class="post-category">Web Development</span>
+                        </div>
+                        <h2><a href="#">Optimasi Website untuk Kecepatan dan Performa</a></h2>
+                        <p class="post-excerpt">Kecepatan website adalah faktor penting dalam pengalaman pengguna. Artikel ini membahas teknik-teknik optimasi untuk meningkatkan performa dan kecepatan loading website.</p>
+                        <a href="#" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-post" data-category="ui">
+                    <div class="blog-image">
+                        <img src="images/blog/post5.jpg" alt="Tren Desain Web untuk Tahun 2025">
+                    </div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span class="post-date">15 Maret 2025</span>
+                            <span class="post-category">UI/UX Design</span>
+                        </div>
+                        <h2><a href="#">Tren Desain Web untuk Tahun 2025</a></h2>
+                        <p class="post-excerpt">Tren desain web terus berkembang setiap tahunnya. Mari kita lihat apa saja tren desain web yang akan populer di tahun 2025 dan bagaimana menerapkannya.</p>
+                        <a href="#" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-post" data-category="tech">
+                    <div class="blog-image">
+                        <img src="images/blog/post6.jpg" alt="Masa Depan Teknologi Blockchain">
+                    </div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span class="post-date">10 Maret 2025</span>
+                            <span class="post-category">Teknologi</span>
+                        </div>
+                        <h2><a href="#">Masa Depan Teknologi Blockchain</a></h2>
+                        <p class="post-excerpt">Blockchain bukan hanya tentang cryptocurrency. Mari kita eksplorasi potensi teknologi blockchain di berbagai sektor dan bagaimana ini akan mengubah dunia digital.</p>
+                        <a href="#" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+
+            <div id="no-results" class="no-results" style="display: none;">
+                <h3>Tidak ada artikel yang ditemukan</h3>
+                <p>Coba gunakan kata kunci lain atau pilih kategori yang berbeda</p>
+            </div>
+            
+            <div class="pagination">
+                <button class="pagination-btn prev" disabled>&laquo; Sebelumnya</button>
+                <div class="page-numbers">
+                    <button class="page-number active">1</button>
+                    <button class="page-number">2</button>
+                </div>
+                <button class="pagination-btn next">Selanjutnya &raquo;</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>My Portfolio</h2>
+                    <p>© 2025 Hak Cipta Dilindungi</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Media Sosial</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="GitHub">
+                            <i class="github-icon">GitHub</i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="linkedin-icon">LinkedIn</i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="instagram-icon">Instagram</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" aria-label="Scroll to Top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>

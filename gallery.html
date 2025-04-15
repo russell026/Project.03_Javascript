@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Portfolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="gallery-hero">
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>Kumpulan karya dan proyek yang telah saya kerjakan</p>
+        </div>
+    </section>
+
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-container">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="web">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img1.jpg" alt="Project 1">
+                        <div class="gallery-overlay">
+                            <h3>E-Commerce Website</h3>
+                            <p>Web Design, HTML, CSS, JavaScript</p>
+                            <button class="view-btn" data-image="images/gallery/img1.jpg" data-title="E-Commerce Website" data-desc="Desain dan pengembangan website e-commerce responsif dengan fitur keranjang belanja dan checkout.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ui">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img2.jpg" alt="Project 2">
+                        <div class="gallery-overlay">
+                            <h3>Mobile App Design</h3>
+                            <p>UI/UX, Mobile Design</p>
+                            <button class="view-btn" data-image="images/gallery/img2.jpg" data-title="Mobile App Design" data-desc="Desain antarmuka aplikasi mobile untuk layanan pengiriman makanan dengan pengalaman pengguna yang intuitif.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="graphic">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img3.jpg" alt="Project 3">
+                        <div class="gallery-overlay">
+                            <h3>Brand Identity</h3>
+                            <p>Graphic Design, Branding</p>
+                            <button class="view-btn" data-image="images/gallery/img3.jpg" data-title="Brand Identity" data-desc="Pembuatan identitas merek untuk sebuah startup teknologi termasuk logo, palet warna, dan panduan merek.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="web">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img4.jpg" alt="Project 4">
+                        <div class="gallery-overlay">
+                            <h3>Portfolio Website</h3>
+                            <p>Web Design, Responsive</p>
+                            <button class="view-btn" data-image="images/gallery/img4.jpg" data-title="Portfolio Website" data-desc="Desain dan pengembangan website portfolio personal yang responsif dan modern.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ui">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img5.jpg" alt="Project 5">
+                        <div class="gallery-overlay">
+                            <h3>Dashboard UI</h3>
+                            <p>UI/UX, Web App</p>
+                            <button class="view-btn" data-image="images/gallery/img5.jpg" data-title="Dashboard UI" data-desc="Desain antarmuka dashboard untuk aplikasi manajemen proyek dengan visualisasi data yang menarik.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="graphic">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img6.jpg" alt="Project 6">
+                        <div class="gallery-overlay">
+                            <h3>Poster Design</h3>
+                            <p>Graphic Design, Print</p>
+                            <button class="view-btn" data-image="images/gallery/img6.jpg" data-title="Poster Design" data-desc="Desain poster untuk acara teknologi dengan konsep minimalis dan tipografi yang kuat.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="web">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img7.jpg" alt="Project 7">
+                        <div class="gallery-overlay">
+                            <h3>Blog Website</h3>
+                            <p>Web Design, CMS</p>
+                            <button class="view-btn" data-image="images/gallery/img7.jpg" data-title="Blog Website" data-desc="Pengembangan website blog dengan fokus pada pengalaman membaca yang nyaman dan kecepatan loading.">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ui">
+                    <div class="gallery-img">
+                        <img src="images/gallery/img8.jpg" alt="Project 8">
+                        <div class="gallery-overlay">
+                            <h3>Mobile Game UI</h3>
+                            <p>UI/UX, Game Design</p>
+                            <button class="view-btn" data-image="images/gallery/img8.jpg" data-title="Mobile Game UI" data-desc="Desain antarmuka untuk game mobile dengan tema petualangan dan sistem level yang menarik.">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for image preview -->
+    <div id="image-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-image" src="" alt="Project Preview">
+            <div class="modal-info">
+                <h2 id="modal-title"></h2>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>My Portfolio</h2>
+                    <p>© 2025 Hak Cipta Dilindungi</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Media Sosial</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="GitHub">
+                            <i class="github-icon">GitHub</i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="linkedin-icon">LinkedIn</i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="instagram-icon">Instagram</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" aria-label="Scroll to Top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-photo">
+                <div class="photo-container">
+                    <img src="images/profile.jpg" alt="Foto Profil" id="profile-img">
+                </div>
+            </div>
+            <div class="hero-text">
+                <h2>Selamat Datang di Portfolio Saya</h2>
+                <h3 id="typing-text"></h3>
+                <p>Saya adalah seorang mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan teknologi.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary">Hubungi Saya</a>
+                    <a href="gallery.html" class="btn-secondary">Lihat Karya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah mahasiswa Teknik Informatika dengan minat utama di bidang pengembangan web dan aplikasi. Saya memiliki pengalaman dengan HTML, CSS, JavaScript, dan berbagai teknologi lainnya.</p>
+                    <p>Melalui portfolio ini, saya ingin menunjukkan karya-karya yang telah saya buat serta berbagi pengetahuan melalui blog.</p>
+                    
+                    <h3>Skills</h3>
+                    <div class="skills">
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="skill-bar"><div class="skill-level" data-level="90"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="skill-bar"><div class="skill-level" data-level="85"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-level" data-level="75"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar"><div class="skill-level" data-level="70"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-projects">
+        <div class="container">
+            <h2 class="section-title">Proyek Terbaru</h2>
+            <div class="project-cards">
+                <div class="card" data-aos="fade-up">
+                    <div class="card-img">
+                        <img src="images/gallery/img1.jpg" alt="Project 1">
+                    </div>
+                    <div class="card-content">
+                        <h3>Website Portofolio</h3>
+                        <p>Desain dan pengembangan website portofolio personal dengan HTML, CSS, dan JavaScript.</p>
+                        <a href="#" class="read-more">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-img">
+                        <img src="images/gallery/img2.jpg" alt="Project 2">
+                    </div>
+                    <div class="card-content">
+                        <h3>Aplikasi Todo List</h3>
+                        <p>Aplikasi manajemen tugas sederhana dengan fitur drag and drop untuk mengatur prioritas.</p>
+                        <a href="#" class="read-more">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-img">
+                        <img src="images/gallery/img3.jpg" alt="Project 3">
+                    </div>
+                    <div class="card-content">
+                        <h3>Game Sederhana</h3>
+                        <p>Game berbasis web sederhana menggunakan JavaScript dan Canvas API.</p>
+                        <a href="#" class="read-more">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-preview">
+        <div class="container">
+            <h2 class="section-title">Artikel Terbaru</h2>
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="images/blog/post1.jpg" alt="Blog Post 1">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Mengenal Teknologi Web Modern</h3>
+                        <p class="date">12 April 2025</p>
+                        <p class="excerpt">Perkembangan teknologi web saat ini sangat pesat, dengan berbagai framework dan library yang mempermudah pengembangan...</p>
+                        <a href="blog-post1.html" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="images/blog/post2.jpg" alt="Blog Post 2">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Dasar-dasar UI/UX Design</h3>
+                        <p class="date">5 April 2025</p>
+                        <p class="excerpt">Desain antarmuka pengguna yang baik adalah kunci dalam membuat aplikasi yang mudah digunakan dan memberikan pengalaman terbaik...</p>
+                        <a href="blog-post2.html" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="blog.html" class="btn-primary">Lihat Semua Artikel</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>My Portfolio</h2>
+                    <p>© 2025 Hak Cipta Dilindungi</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Media Sosial</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="GitHub">
+                            <i class="github-icon">GitHub</i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="linkedin-icon">LinkedIn</i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="instagram-icon">Instagram</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" aria-label="Scroll to Top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
